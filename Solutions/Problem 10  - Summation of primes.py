@@ -45,7 +45,7 @@ def execute_fermat(n):
 # execute_fermat(2000000)
 
 
-# implementation og Sieve of Eratosthenes - much more efficient
+# implementation of Sieve of Eratosthenes - much more efficient
 
 def sieve_of_eratosthenes(n):
     # set can only contain unique values
