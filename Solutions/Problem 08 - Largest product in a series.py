@@ -32,7 +32,7 @@ import pandas as pd
 from numpy import prod
 
 # read number above from csv for visual purpose
-df = pd.read_csv('data/Problem 8 - Largest product in a series.csv')
+df = pd.read_csv('data/Problem 08 - Largest product in a series.csv')
 number = df.number[0]
 
 
