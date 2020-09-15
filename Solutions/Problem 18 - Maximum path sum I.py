@@ -97,9 +97,12 @@ def reduce_dict(numbers_collection):
         for k in range(2):
             sums.append(j + bottom_two_lists[1][k+i])
 
+        # set each element in row equal to max sum between the two bottom and one top value
         possible_sums.append(max(sums))
 
+    # set 2nd last row equal to possible sum of two last rows
     numbers_collection[bottom_index[0]] = possible_sums
+    # drop the last row
     numbers_collection.pop(bottom_index[1], None)
 
     return numbers_collection
